@@ -372,6 +372,9 @@ dependencies = [
  "leptos_axum",
  "leptos_meta",
  "leptos_router",
+ "reactive_graph",
+ "server_fn",
+ "tachys",
  "tokio",
  "wasm-bindgen",
 ]

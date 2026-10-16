@@ -1,9 +1,9 @@
 # dispose_repro
 
 Use-after-dispose panics with `AsyncDerived`, `spawn_local` and a `Memo` read
-outside its `Transition`. Pinned to the crates.io releases it was found on
-(leptos 0.8.22, reactive_graph 0.2.15, tachys 0.2.19), with a release profile
-using `panic = "abort"`.
+outside its `Transition`. Pinned in `Cargo.toml` to the crates.io releases
+it was found on (leptos 0.8.22, reactive_graph 0.2.15, tachys 0.2.19), not to
+this repository's crates, with a release profile using `panic = "abort"`.
 
 ```sh
 cargo leptos build --release
